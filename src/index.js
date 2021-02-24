@@ -21,7 +21,7 @@ app.get('/', (request, response) => {
 
 
 app.post('/', (request, response) => {
-    const { name, email } = request.body;
+    const { name, email, peso, altura } = request.body;
     //destruturação 
     const newStudent = { id: uuid(), name, email };
     repositories.push(newStudent);
