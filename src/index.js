@@ -56,6 +56,10 @@ app.delete('/:id', (request, response) => {
 });
 //crud 
 
+function teste() {
+
+}
+
 module.exports = app.listen(3333, () => {
     console.log("Server running");
 });
