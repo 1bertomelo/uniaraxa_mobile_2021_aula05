@@ -8,6 +8,7 @@ const app = express();
 app.use(express.json());
 
 //repositorio em array
+//teste
 const repositories = [];
 
 //1 paramatro o nome da rota 
