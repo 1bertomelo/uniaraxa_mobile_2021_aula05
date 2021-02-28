@@ -54,11 +54,6 @@ app.delete('/:id', (request, response) => {
     repositories.splice(studentResearch, 1);
     return response.json({ "Message": `Student ${id} removed` });
 });
-//crud 
-
-function teste() {
-
-}
 
 module.exports = app.listen(3333, () => {
     console.log("Server running");
